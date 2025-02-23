@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		9673CB6C2D64F8CB003478A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9673CB522D64F8C8003478A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9673CB592D64F8C8003478A9;
+			remoteInfo = "Macros Project";
+		};
+		9673CB762D64F8CB003478A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9673CB522D64F8C8003478A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9673CB592D64F8C8003478A9;
+			remoteInfo = "Macros Project";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9673CB5A2D64F8C8003478A9 /* Macros Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Macros Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9673CB6B2D64F8CB003478A9 /* Macros ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Macros ProjectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9673CB752D64F8CB003478A9 /* Macros ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Macros ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9673CB5C2D64F8C8003478A9 /* Macros Project */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Macros Project";
+			sourceTree = "<group>";
+		};
+		9673CB6E2D64F8CB003478A9 /* Macros ProjectTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Macros ProjectTests";
+			sourceTree = "<group>";
+		};
+		9673CB782D64F8CB003478A9 /* Macros ProjectUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Macros ProjectUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9673CB572D64F8C8003478A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9673CB682D64F8CB003478A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9673CB722D64F8CB003478A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9673CB512D64F8C8003478A9 = {
+			isa = PBXGroup;
+			children = (
+				9673CB5C2D64F8C8003478A9 /* Macros Project */,
+				9673CB6E2D64F8CB003478A9 /* Macros ProjectTests */,
+				9673CB782D64F8CB003478A9 /* Macros ProjectUITests */,
+				9673CB5B2D64F8C8003478A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9673CB5B2D64F8C8003478A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9673CB5A2D64F8C8003478A9 /* Macros Project.app */,
+				9673CB6B2D64F8CB003478A9 /* Macros ProjectTests.xctest */,
+				9673CB752D64F8CB003478A9 /* Macros ProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9673CB592D64F8C8003478A9 /* Macros Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9673CB7F2D64F8CB003478A9 /* Build configuration list for PBXNativeTarget "Macros Project" */;
+			buildPhases = (
+				9673CB562D64F8C8003478A9 /* Sources */,
+				9673CB572D64F8C8003478A9 /* Frameworks */,
+				9673CB582D64F8C8003478A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9673CB5C2D64F8C8003478A9 /* Macros Project */,
+			);
+			name = "Macros Project";
+			packageProductDependencies = (
+			);
+			productName = "Macros Project";
+			productReference = 9673CB5A2D64F8C8003478A9 /* Macros Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9673CB6A2D64F8CB003478A9 /* Macros ProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9673CB822D64F8CB003478A9 /* Build configuration list for PBXNativeTarget "Macros ProjectTests" */;
+			buildPhases = (
+				9673CB672D64F8CB003478A9 /* Sources */,
+				9673CB682D64F8CB003478A9 /* Frameworks */,
+				9673CB692D64F8CB003478A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9673CB6D2D64F8CB003478A9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9673CB6E2D64F8CB003478A9 /* Macros ProjectTests */,
+			);
+			name = "Macros ProjectTests";
+			packageProductDependencies = (
+			);
+			productName = "Macros ProjectTests";
+			productReference = 9673CB6B2D64F8CB003478A9 /* Macros ProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9673CB742D64F8CB003478A9 /* Macros ProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9673CB852D64F8CB003478A9 /* Build configuration list for PBXNativeTarget "Macros ProjectUITests" */;
+			buildPhases = (
+				9673CB712D64F8CB003478A9 /* Sources */,
+				9673CB722D64F8CB003478A9 /* Frameworks */,
+				9673CB732D64F8CB003478A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9673CB772D64F8CB003478A9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				9673CB782D64F8CB003478A9 /* Macros ProjectUITests */,
+			);
+			name = "Macros ProjectUITests";
+			packageProductDependencies = (
+			);
+			productName = "Macros ProjectUITests";
+			productReference = 9673CB752D64F8CB003478A9 /* Macros ProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9673CB522D64F8C8003478A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					9673CB592D64F8C8003478A9 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					9673CB6A2D64F8CB003478A9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 9673CB592D64F8C8003478A9;
+					};
+					9673CB742D64F8CB003478A9 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 9673CB592D64F8C8003478A9;
+					};
+				};
+			};
+			buildConfigurationList = 9673CB552D64F8C8003478A9 /* Build configuration list for PBXProject "Macros Project" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9673CB512D64F8C8003478A9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 9673CB5B2D64F8C8003478A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9673CB592D64F8C8003478A9 /* Macros Project */,
+				9673CB6A2D64F8CB003478A9 /* Macros ProjectTests */,
+				9673CB742D64F8CB003478A9 /* Macros ProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9673CB582D64F8C8003478A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9673CB692D64F8CB003478A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9673CB732D64F8CB003478A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9673CB562D64F8C8003478A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9673CB672D64F8CB003478A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9673CB712D64F8CB003478A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9673CB6D2D64F8CB003478A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9673CB592D64F8C8003478A9 /* Macros Project */;
+			targetProxy = 9673CB6C2D64F8CB003478A9 /* PBXContainerItemProxy */;
+		};
+		9673CB772D64F8CB003478A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9673CB592D64F8C8003478A9 /* Macros Project */;
+			targetProxy = 9673CB762D64F8CB003478A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9673CB7D2D64F8CB003478A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9673CB7E2D64F8CB003478A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9673CB802D64F8CB003478A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Macros Project/Macros_Project.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Macros Project/Preview Content\"";
+				DEVELOPMENT_TEAM = Z5L7483WG9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BYU-Idaho.Macros-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9673CB812D64F8CB003478A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Macros Project/Macros_Project.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Macros Project/Preview Content\"";
+				DEVELOPMENT_TEAM = Z5L7483WG9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BYU-Idaho.Macros-Project";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9673CB832D64F8CB003478A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BYU-Idaho.Macros-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Macros Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Macros Project";
+			};
+			name = Debug;
+		};
+		9673CB842D64F8CB003478A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BYU-Idaho.Macros-ProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Macros Project.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Macros Project";
+			};
+			name = Release;
+		};
+		9673CB862D64F8CB003478A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BYU-Idaho.Macros-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Macros Project";
+			};
+			name = Debug;
+		};
+		9673CB872D64F8CB003478A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BYU-Idaho.Macros-ProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Macros Project";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9673CB552D64F8C8003478A9 /* Build configuration list for PBXProject "Macros Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9673CB7D2D64F8CB003478A9 /* Debug */,
+				9673CB7E2D64F8CB003478A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9673CB7F2D64F8CB003478A9 /* Build configuration list for PBXNativeTarget "Macros Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9673CB802D64F8CB003478A9 /* Debug */,
+				9673CB812D64F8CB003478A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9673CB822D64F8CB003478A9 /* Build configuration list for PBXNativeTarget "Macros ProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9673CB832D64F8CB003478A9 /* Debug */,
+				9673CB842D64F8CB003478A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9673CB852D64F8CB003478A9 /* Build configuration list for PBXNativeTarget "Macros ProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9673CB862D64F8CB003478A9 /* Debug */,
+				9673CB872D64F8CB003478A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9673CB522D64F8C8003478A9 /* Project object */;
+}
